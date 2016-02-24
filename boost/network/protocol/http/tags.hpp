@@ -52,11 +52,11 @@ typedef mpl::vector<
     http, simple, boost::network::tags::async, boost::network::tags::pod,
     boost::network::tags::default_string, server> http_server_tags;
 
-BOOST_NETWORK_DEFINE_TAG(http_default_8bit_tcp_resolve);
-BOOST_NETWORK_DEFINE_TAG(http_default_8bit_udp_resolve);
-BOOST_NETWORK_DEFINE_TAG(http_async_8bit_udp_resolve);
-BOOST_NETWORK_DEFINE_TAG(http_async_8bit_tcp_resolve);
-BOOST_NETWORK_DEFINE_TAG(http_server);
+BOOST_NETWORK_DEFINE_TAG(http_default_8bit_tcp_resolve)
+BOOST_NETWORK_DEFINE_TAG(http_default_8bit_udp_resolve)
+BOOST_NETWORK_DEFINE_TAG(http_async_8bit_udp_resolve)
+BOOST_NETWORK_DEFINE_TAG(http_async_8bit_tcp_resolve)
+BOOST_NETWORK_DEFINE_TAG(http_server)
 
 }  // namespace tags
 }  // namespace http

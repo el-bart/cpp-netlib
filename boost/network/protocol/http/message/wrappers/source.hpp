@@ -18,7 +18,7 @@ struct basic_response;
 template <class Tag>
 struct basic_request;
 
-BOOST_NETWORK_DEFINE_HTTP_WRAPPER(source, source, source);
+BOOST_NETWORK_DEFINE_HTTP_WRAPPER(source, source, source)
 
 }  // namespace http
 

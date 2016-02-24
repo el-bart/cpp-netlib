@@ -16,7 +16,7 @@ namespace http {
 
 BOOST_NETWORK_STRING_DIRECTIVE(status_message, status_message_,
                                message.status_message(status_message_),
-                               message.status_message = status_message_);
+                               message.status_message = status_message_)
 
 }  // namespace http
 

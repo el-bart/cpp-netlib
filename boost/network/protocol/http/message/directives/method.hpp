@@ -11,7 +11,7 @@ namespace network {
 namespace http {
 
 BOOST_NETWORK_STRING_DIRECTIVE(method, method_, message.method(method_),
-                               message.method = method_);
+                               message.method = method_)
 
 } // namespace http
  /* http */

@@ -15,7 +15,7 @@ BOOST_FUSION_ADAPT_TPL_STRUCT(
      user_info)(boost::optional<boost::iterator_range<FwdIter> >,
                 host)(boost::optional<boost::iterator_range<FwdIter> >,
                       port)(boost::optional<boost::iterator_range<FwdIter> >,
-                            path));
+                            path))
 
 BOOST_FUSION_ADAPT_TPL_STRUCT(
     (FwdIter), (boost::network::uri::detail::uri_parts)(FwdIter),
@@ -23,7 +23,7 @@ BOOST_FUSION_ADAPT_TPL_STRUCT(
      scheme)(boost::network::uri::detail::hierarchical_part<FwdIter>,
              hier_part)(boost::optional<boost::iterator_range<FwdIter> >,
                         query)(boost::optional<boost::iterator_range<FwdIter> >,
-                               fragment));
+                               fragment))
 
 namespace boost {
 namespace network {

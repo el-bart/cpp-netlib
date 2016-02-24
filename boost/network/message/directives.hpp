@@ -24,12 +24,12 @@ inline basic_message<Tag>& operator<<(basic_message<Tag>& message_,
 }
 
 BOOST_NETWORK_STRING_DIRECTIVE(source, source_, message.source(source_),
-                               message.source = source_);
+                               message.source = source_)
 BOOST_NETWORK_STRING_DIRECTIVE(destination, destination_,
                                message.destination(destination_),
-                               message.destination = destination_);
+                               message.destination = destination_)
 BOOST_NETWORK_STRING_DIRECTIVE(body, body_, message.body(body_),
-                               message.body = body_);
+                               message.body = body_)
 
 }  // namespace network
 

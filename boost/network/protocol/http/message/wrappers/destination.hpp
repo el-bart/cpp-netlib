@@ -25,7 +25,7 @@ struct Request;
 template <class R>
 struct Response;
 
-BOOST_NETWORK_DEFINE_HTTP_WRAPPER(destination, destination, destination);
+BOOST_NETWORK_DEFINE_HTTP_WRAPPER(destination, destination, destination)
 
 }  // namespace http
 
