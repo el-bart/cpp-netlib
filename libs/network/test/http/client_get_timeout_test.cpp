@@ -29,7 +29,7 @@ struct localhost_server_fixture {
   http_test_server server;
 };
 
-BOOST_GLOBAL_FIXTURE(localhost_server_fixture);
+BOOST_GLOBAL_FIXTURE(localhost_server_fixture)
 
 BOOST_AUTO_TEST_CASE_TEMPLATE(http_get_test_timeout_1_0, client, client_types) {
   typename client::request request("http://localhost:12121/");
