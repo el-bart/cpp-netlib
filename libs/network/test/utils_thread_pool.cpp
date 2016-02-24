@@ -21,7 +21,7 @@ using namespace boost::network;
 
 TEST(ThreadPoolTest, DefaultConstructor) {
   utils::thread_pool pool;
-  ASSERT_EQ(1, pool.thread_count());
+  ASSERT_EQ(1u, pool.thread_count());
 }
 
 struct foo {
